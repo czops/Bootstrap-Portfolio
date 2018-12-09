@@ -1,0 +1,58 @@
+
+/*html {
+    background-color: rgb(68, 68, 68);
+}*/
+
+h1 {
+    border-bottom: 2px;
+    border-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:rgb(50, 81, 255);
+}
+h3{
+    text-align: center;
+    font-size:10px;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+
+}
+.row {
+    margin-bottom: 3px;
+    padding: 10px;
+}
+
+.card{
+    padding:10px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    margin-top:20px;
+}
+
+.container{
+    margin-bottom: 40px;
+}
+
+/*This is specific to the contact page*/
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+
+#contact-form li {
+    margin-bottom: 10px;
+  }
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
