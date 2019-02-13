@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--Bootstrap CSS Link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
     <link rel="stylesheet" type=text/css href="assets/css/style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
 
 <!--STILL NEED TO ADD A COLLAPSE AND NAVBAR-COLLAPSE-->
@@ -48,10 +50,10 @@
         <!--Using a card element here to contain my photo - this is also in the same container as the the header of the content-->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img id="selfie" src="assets/images/peppa-Shanghai.jpg" alt="Card image cap" style="width:160px;height:200px;">
                     <div class="card-body">
-                        <p id="card-caption">I visited China during the summer in 2018! Here's me on the Bund, reppin
+                        <p id="card-caption">I visited China during the summer of 2018! Here's me on the Bund, reppin
                             the off-brand combination of Supreme and Peppa the Pig.</p>
                     </div>
                 </div>
@@ -59,23 +61,27 @@
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <p>I am a chemical process engineer working in Minnesota. I enjoy coding in my free time. I have some
                     experience optimizing aesthetics- whether it's in day-to-day life or in user interfaces and styling
-                    websites.</p>
-                <p>This coding bootcamp is teaching me more than I thought it would! Glad to be a part of this class.
-                    Really hope that I can keep being this curious about everything I am learning!</p>
-                <p>I decided to put in a couple recent photos of mine from my travels.</p>
+                    websites. Someday I plan on making applications on top of business ERP databases that will help
+                    engineers collect data from operator inputs. Until then I'm going to have some fun learning about
+                    web design and coding.</p>
+                <p>This coding bootcamp is teaching me so much! Glad to be a part of this class.</p>
+                <p>I decided to put in a couple recent photos of mine from my travels. I will be travelling to Poland
+                    this coming summer, so stay tuned!</p>
             </div>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col">
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -86,6 +92,12 @@
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="assets/images/street.JPG" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/hut.JPG" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/game.jpg" alt="Fifth slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -102,12 +114,28 @@
         </div>
     </div>
 
+    <!-- Yea i'll have to host this some other way... Can't get around the copyrights to the song -->
+    <!-- <div class="video">
+
+        <iframe src="https://drive.google.com/file/d/1IQbXlEo8yJhW07g4YfDUhQl8Gh26Wuqv/view?usp=drive_web" frameborder="0" style="height: 720px; width: 1300px;">
+        </iframe>
+
+    </div> -->
 
     <!--Adding a footer to this page using the position fixed call in CSS-->
 
     <div class=" bg-dark justify-content footer">
         <h3>Copyright 2018</h3>
     </div>
+
+
+    <!-- Add JQuery as well.... -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <!--Bootstrap JS Link-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
 
 </body>
 

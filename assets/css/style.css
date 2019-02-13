@@ -4,6 +4,7 @@
 }*/
 
 h1 {
+    font-family: 'Dosis', sans-serif;
     border-bottom: 2px;
     border-color: rgb(0, 0, 0);
     padding-top: 10px;
@@ -12,6 +13,7 @@ h1 {
 }
 
 h3{
+    font-family: 'Dosis', sans-serif;
     text-align: center;
     font-size:10px;
     color: #fff;
@@ -21,6 +23,7 @@ h3{
 }
 
 p{
+    font-family: 'Dosis', sans-serif;
     font-size: 20px;
 }
 
@@ -37,6 +40,7 @@ p{
 }
 
 .footer{
+    font-family: 'Dosis', sans-serif;
     position: fixed;
     left: 0;
     bottom:0;
@@ -48,17 +52,28 @@ p{
     margin-bottom: 40px;
 }
 
+.li{
+    font-family: 'Dosis', sans-serif;
+}
+
+.a{
+    font-family: 'Dosis', sans-serif;
+}
+
 /*This is specific to the contact page*/
 
 #contact-form ul {
+    font-family: 'Dosis', sans-serif;
     margin-bottom: 20px;
   }
 
 #contact-form li {
+    font-family: 'Dosis', sans-serif;
     margin-bottom: 10px;
   }
 
 #card-caption{
+    font-family: 'Dosis', sans-serif;
     font-size: 15px;
 }
 
