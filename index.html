@@ -17,10 +17,10 @@
 <!--STILL NEED TO ADD A COLLAPSE AND NAVBAR-COLLAPSE-->
 
 <body>
-    <div class="container-fluid bg-dark justify-content-end">
+    <div class="container-fluid justify-content-end navbar-custom">
         <div class="row">
             <div class="col">
-                <ul class="nav navbar-expand-lg navbar-dark justify-content-end nav-tabs">
+                <ul class="nav navbar-expand-lg justify-content-end nav-tabs">
                     <a class="navbar-brand flex-row" href="index.html">Christopher J Czopinski</a>
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">About</a>
@@ -50,11 +50,10 @@
         <!--Using a card element here to contain my photo - this is also in the same container as the the header of the content-->
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card">
-                    <img id="selfie" src="assets/images/peppa-Shanghai.jpg" alt="Card image cap" style="width:160px;height:200px;">
+                <div id = "selfieCard" class="card border-0">
+                    <img id="selfie" src="assets/images/sailin.jpg" alt="Card image cap" style="width:200px;height:275px;">
                     <div class="card-body">
-                        <p id="card-caption">I visited China during the summer of 2018! Here's me on the Bund, reppin
-                            the off-brand combination of Supreme and Peppa the Pig.</p>
+                        <p id="card-caption"></p>
                     </div>
                 </div>
             </div>
@@ -68,6 +67,7 @@
                 <p>I decided to put in a couple recent photos of mine from my travels. I will be travelling to Poland
                     this coming summer, so stay tuned!</p>
             </div>
+           
         </div>
     </div>
 
@@ -124,8 +124,14 @@
 
     <!--Adding a footer to this page using the position fixed call in CSS-->
 
-    <div class=" bg-dark justify-content footer">
+    <!-- <div class=" bg-light justify-content footer">
         <h3>Copyright 2018</h3>
+    </div> -->
+
+    <div class="footerstyle col-lg-12 col-md-12 col-sm-12">
+        <div class="content has-text-centered">
+            <strong>Copyright 2019 - Chris Czopinski</strong>
+        </div>
     </div>
 
 

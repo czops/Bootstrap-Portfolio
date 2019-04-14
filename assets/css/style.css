@@ -3,13 +3,34 @@
     background-color: rgb(68, 68, 68);
 }*/
 
+/* Navbar color and properties changes */
+.navbar-custom {
+    background-color: rgb(27, 158, 9);
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(243, 239, 10);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(243, 239, 10);;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #f87102;
+}
+
 h1 {
     font-family: 'Dosis', sans-serif;
+    font-size:70px;
     border-bottom: 2px;
     border-color: rgb(0, 0, 0);
     padding-top: 10px;
     padding-bottom: 10px;
-    color:rgb(50, 81, 255);
+    color:rgb(27, 158, 9);
 }
 
 h3{
@@ -32,21 +53,24 @@ p{
     padding: 10px;
 }
 
-
-
 #selfie{
     position: center;
-    margin-left: 55px;
+    margin-left: 50px;
+    margin-top:10px;
 }
 
-.footer{
+#selfie-card{
+    border-color: rgba(255, 255, 255, 0);
+}
+
+/* .footer{
     font-family: 'Dosis', sans-serif;
     position: fixed;
     left: 0;
     bottom:0;
     width: 100%;
     margin-top:20px;
-}
+} */
 
 .container{
     margin-bottom: 40px;
@@ -58,6 +82,12 @@ p{
 
 .a{
     font-family: 'Dosis', sans-serif;
+
+}
+
+.nav-link{
+
+    color: rgb(243, 239, 10);
 }
 
 /*This is specific to the contact page*/
@@ -84,3 +114,19 @@ textarea {
   display: block;
   width: 100%;
 }
+
+
+.footerstyle {
+    /* position: absolute;
+    left: 0; */
+    /* width: 100%; */
+    background-color: rgb(27, 158, 9);
+    font-size: 12px;
+    color:  rgb(243, 239, 10);
+    text-align: center;
+ }
+
+ .bg-dark {
+     background-color: rgb(27, 158, 9);
+
+ }

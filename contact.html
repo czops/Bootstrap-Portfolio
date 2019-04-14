@@ -15,10 +15,10 @@
 <body>
 
     <!--I'd like to add a section to this to collapse it into a hambuger once the screen is small enough-->
-    <div class="container-fluid bg-dark justify-content-end">
+    <div class="container-fluid justify-content-end navbar-custom">
         <div class="row">
             <div class="col">
-                <ul class="nav navbar-expand-lg navbar-dark justify-content-end nav-tabs">
+                <ul class="nav navbar-expand-lg justify-content-end nav-tabs">
                     <a class="navbar-brand" href="index.html">Christopher J Czopinski</a>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">About</a>
@@ -40,14 +40,16 @@
     <div class="container">
         <h1>Contact Me</h1>
         <div class="row">
-            <div class="ContactIcons col-md-3">
-                <a id="cv" href="assets/Chris Czopinski Resume 2018.pdf"><img src="assets/images/cv.png" style="width:30px;height:40px;"></a>
+            <div class="ContactIcons col-md-6">
+                <a id="cv" href="assets/Chris Czopinski Resume 2018.pdf"><img src="assets/images/cv.png"
+                        style="width:30px;height:40px;"></a>
 
-                <a id="linkedin" href="https://www.linkedin.com/in/christopher-czopinski-17560068/"><img src="assets/images/linkedin-512.png"
-                        style="width:40px;height:40px;"></a>
-                <a id="email" href="chris.czopinski@gmail.com"><img src="assets/images/email-icon-logo-8.jpg" style="width:60px;height:60px;"></a>
-                <a id="github" href="https://github.com/czops"> <img src="assets/images/github-icon-logo-png-transparent.png"
-                        style="width:40px;height:40px;"></a>
+                <a id="linkedin" href="https://www.linkedin.com/in/christopher-czopinski-17560068/"><img
+                        src="assets/images/linkedin-512.png" style="width:40px;height:40px;"></a>
+                <a id="email" href="chris.czopinski@gmail.com"><img src="assets/images/email-icon-logo-8.jpg"
+                        style="width:60px;height:60px;"></a>
+                <a id="github" href="https://github.com/czops"> <img
+                        src="assets/images/github-icon-logo-png-transparent.png" style="width:40px;height:40px;"></a>
             </div>
         </div>
         <div class="row">
@@ -62,7 +64,8 @@
                             </li>
                             <li>
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com"
+                                    required="required">
                             </li>
                             <li>
                                 <label for="message">Message</label>
@@ -77,10 +80,18 @@
     </div>
 
 
-    <div class=" bg-dark justify-content footer">
+    <!--Adding a footer to this page using the position fixed call in CSS-->
+
+    <!-- <div class=" bg-light justify-content footer">
         <h3>Copyright 2018</h3>
+    </div> -->
     </div>
 
+    <div class="footerstyle col-lg-12 col-md-12 col-sm-12">
+        <div class="content has-text-centered">
+            <strong>Copyright 2019 - Chris Czopinski</strong>
+        </div>
+    </div>
 
 </body>
 
