@@ -115,6 +115,9 @@ textarea {
   width: 100%;
 }
 
+#cv{
+    margin-right: 12px;
+}
 
 .footerstyle {
     /* position: absolute;
